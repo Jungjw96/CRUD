@@ -20,7 +20,7 @@
 			inputForm.password.focus();
 			return false;
 		}
-		return true;
+		
 	}
 
 </script>

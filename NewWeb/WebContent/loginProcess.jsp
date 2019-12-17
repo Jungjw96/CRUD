@@ -7,14 +7,14 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>로그인처리</title>
+<title>Insert title here</title>
 </head>
 <body>
  
 <!-- loginProcess는 입력된 정보를 DB와 연결해주는 창입니다. -->
 <%
  String id = request.getParameter("id");
- String pass =request.getParameter("pass");
+ String pass =request.getParameter("password");
  
  Connection conn = null;
  PreparedStatement pstmt =null;

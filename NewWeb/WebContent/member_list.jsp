@@ -44,10 +44,10 @@ try{
     <a href="member_info.jsp?id=<%=rs.getString("id") %>"><%=rs.getString("id") %></a>
    </td>
    <td><%=rs.getString("password") %></td>
-   <td><a><%=rs.getString("name") %></a></td>
-   <td><a><%=rs.getString("age") %></a></td>
-   <td><a><%=rs.getString("gender") %></a></td>
-   <td><a><%=rs.getString("email") %></a></td>
+   <td><%=rs.getString("name") %></td>
+   <td><%=rs.getString("age") %></td>
+   <td><%=rs.getString("gender") %></td>
+   <td><%=rs.getString("email") %></td>
    <td><a href="member_delete.jsp?id=<%=rs.getString("id") %>">삭제</a></td>
   </tr>
  <%} %>
